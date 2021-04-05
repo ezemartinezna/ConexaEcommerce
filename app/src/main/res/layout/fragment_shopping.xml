@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/icon_shop"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerView_Shopping"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="300dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <TextView
+        android:id="@+id/textCantidad"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/buttonClearAll"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="BORRAR TODO"/>
+
+    <Button
+        android:id="@+id/buttonConfirmPay"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Pagar"/>
+
+
+</LinearLayout>

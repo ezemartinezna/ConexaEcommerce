@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/destination_products"
+        android:icon="@drawable/icon_products"
+        android:title="Productos" />
+    <item
+        android:id="@+id/destination_shop"
+        android:icon="@drawable/icon_shop"
+        android:title="Carrito" />
+
+    <item
+        android:id="@+id/destination_settings"
+        android:icon="@drawable/icon_settings"
+        android:title="Settings" />
+</menu>

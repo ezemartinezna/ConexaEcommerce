@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+    app:startDestination="@id/destination_products">
+
+    <fragment
+        android:id="@+id/destination_products"
+        android:name="com.conexworkshop.app.ProductsFragment"
+        android:label="ProductsFragment" />
+    <fragment
+        android:id="@+id/destination_shop"
+        android:name="com.conexworkshop.app.ShoppingFragment"
+        android:label="ShoppingFragment" />
+</navigation>
